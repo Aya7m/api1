@@ -2,7 +2,7 @@
 import mysql from "mysql2"
 
 export const dbconnection=()=>{
-    const conn=mysql.createConnection('mysql://ubnk17af7gf86ero:PyqcLoV8NmFNJnidqYbv@b0lmmgblohrdfgjmm2ck-mysql.services.clever-cloud.com:3306/b0lmmgblohrdfgjmm2ck')
+    const conn=mysql.createConnection('mysql://u9qis372lrv8qedj:UIzxmFLcbVyBL2ZcgUB2@bcp9b5dxe3fsqjckgqoh-mysql.services.clever-cloud.com:3306/bcp9b5dxe3fsqjckgqoh')
     conn.connect((error)=>{
         if(error) console.log("error db connection");
         console.log("db connected successfully");
